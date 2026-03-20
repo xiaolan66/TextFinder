@@ -25,7 +25,7 @@
             android:layout_width="24dp"
             android:layout_height="24dp"
             android:src="@android:drawable/ic_menu_search"
-            android:tint="#FFFFFF"
+            app:tint="#FFFFFF"
             android:layout_marginStart="4dp"
             android:layout_marginEnd="8dp"
             android:contentDescription="Search icon" />
@@ -36,7 +36,7 @@
             android:layout_height="48dp"
             android:layout_weight="1"
             android:hint="输入要查找的文字 / Enter text to find"
-            android:hintTextColor="#99FFFFFF"
+            android:textColorHint="#99FFFFFF"
             android:textColor="#FFFFFF"
             android:textSize="16sp"
             android:background="@null"
@@ -52,7 +52,7 @@
             android:layout_width="36dp"
             android:layout_height="36dp"
             android:src="@android:drawable/ic_menu_close_clear_cancel"
-            android:tint="#FFFFFF"
+            app:tint="#FFFFFF"
             android:background="?attr/selectableItemBackgroundBorderless"
             android:contentDescription="Clear"
             android:visibility="gone" />
